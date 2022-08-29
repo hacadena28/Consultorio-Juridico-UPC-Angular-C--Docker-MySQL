@@ -1,0 +1,62 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="well well-sm">
+        <form class="form-horizontal" method="post">
+          <fieldset>
+            <legend class="text-center header">Ingrese sus datos</legend>
+//PRIEMERO: fafadsga
+            <div class="form-group">
+              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+              <div class="col-md-8">
+                <input  id="numeroDeDocumento" #numeroDeDocumento name="numeroDeDocumento" type="text" placeholder="Numero de documento" class="form-control">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+              <div class="col-md-8">
+                <input id="nombres" #nombres name="nombres" type="text" placeholder="Nombres" class="form-control">
+              </div>
+            </div>
+           
+            <div class="form-group">
+              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+              <div class="col-md-8">
+                <input id="apellidos" #apellidos name="apellidos" type="text" placeholder="Apellidos" class="form-control">
+              </div>
+            </div>
+           
+            <div class="form-group">
+              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+              <div class="col-md-8">
+                <input id="edad" #edad name="edad" type="text" placeholder="Edad" class="form-control">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+              <div class="col-md-8">
+                <input id="celular" #celular name="celular" type="text" placeholder="Numero de contacto" class="form-control">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+              <div class="col-md-8">
+                <input id="correo" #correo name="correo" type="text" placeholder="Correo electronico" class="form-control">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-md-12 text-center">
+                <button type="submit" class="btn btn-primary btn-lg"(click)="addPersona(numeroDeDocumento.value,nombres.value,apellidos.value,edad.value,celular.value,correo.value)">Registrar</button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
