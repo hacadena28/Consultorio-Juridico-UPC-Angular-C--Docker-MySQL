@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BackEnd",
     "\\BackEnd\\NetCoreAPIMySQL",
     "\\BackEnd\\NetCoreAPIMySQL\\NetCoreAPIMySQL.Data",
     "\\BackEnd\\NetCoreAPIMySQL\\NetCoreAPIMySQL.Data\\Repositories"
   ],
-  "SelectedNode": "\\BackEnd\\NetCoreAPIMySQL\\NetCoreAPIMySQL.Data\\Repositories\\PersonaRepository.cs",
+  "SelectedNode": "\\BackEnd",
   "PreviewInSolutionExplorer": false
 }
