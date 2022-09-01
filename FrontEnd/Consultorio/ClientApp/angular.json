@@ -145,5 +145,8 @@
       }
     }
   },
-  "defaultProject": "Consultorio"
+  "defaultProject": "Consultorio",
+  "cli": {
+    "analytics": "27d6583a-800e-4b6e-b557-ef181081dea1"
+  }
 }

@@ -11,6 +11,7 @@ import { Agenda } from "./consultorio/models/agenda";
 import { Routes, RouterModule } from "@angular/router";
 import {AppComponent} from "./app.component";
 import {AgendaComponent} from "./consultorio/agenda/agenda.component";
+import {consultarUsuarioComponent} from "./consultorio/consulta-usuario/consulta-usuario.component";
 
 const routes: Routes = [
   {
@@ -37,6 +38,9 @@ const routes: Routes = [
   },{
     path: 'consultaAudienciaEstudiante',
     component: ConsultaAudienciaEstudianteComponent
+  },{
+    path: 'consultaUsuario',
+    component: consultarUsuario
   }
 ];
 
